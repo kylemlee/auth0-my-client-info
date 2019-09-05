@@ -1,5 +1,5 @@
 ## Auth0 My Client Info
-A simple chrome browser extention that displays a list of registered clients via Auth0. This tool also provides a configuration panel.
+A simple chrome browser extension that displays a list of registered clients via Auth0. This tool also provides a configuration panel.
 ## Installation
 1. Clone/download this repository
 2. Move `auth0_my_client_info` folder into your desired location
