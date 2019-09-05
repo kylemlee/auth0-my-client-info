@@ -8,4 +8,7 @@ A simple chrome browser extention that displays a list of registered clients via
 5. Click `Load unpacked` button to install this plugin
 ## Usage
 1. Configure the plugin by filling in the information in `Settings`
-2. Click `Get all client data` to display the list
+2. Once all the information is saved, go back to the `chrome://extensions/` page and click `Update` button to reload the plugin.
+3. Click `Get all client data` to display the list
+## Note
+This plugin assumes that `Auth0 Management API` is already defined.
