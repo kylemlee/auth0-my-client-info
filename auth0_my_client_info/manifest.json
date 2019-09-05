@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Auth0 My Client Info",
+    "version": "0.1",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "options_ui": {
+        "page": "settings.html",
+        "open_in_tab": false
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "https://*.auth0.com/oauth/token"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Auth0 Client Info</title>
+  </head>
+  <style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+  </style>
+  <body style="width : 600px;">
+    <h2>My Auth0 Client Info</h2>
+    <div role="main">
+
+      <div id="tableWrapper"></div>
+
+      <form>
+        <input type="button" id="info" value="Get All Client Data"/>
+        <button id="settings">Settings</button>
+      </form>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
